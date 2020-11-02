@@ -28,6 +28,7 @@ function getClickPosition(e) {
 			moveCt ++;
 			moves[horiz][vert] = 1;
 			player = "player2"
+			//compMove();
 		}else if (moves[horiz][vert] == 0){
 			moveCt ++;
 			moves[horiz][vert] = 2;
